@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   min = nul
   name_hash.each do |element, key|
-    if(min > key || min == nul)
+    if(min == nul)
       min = key 
     end 
   end
